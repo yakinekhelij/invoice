@@ -1,5 +1,6 @@
 <?php
 session_start();
+/*print*/
 include 'Invoice.php';
 $invoice = new Invoice();
 $invoice->checkLoggedIn();
